@@ -1,0 +1,21 @@
+.edu-container {
+    width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    background-color: #b8bff4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.edu-container:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+.edu-container h2 {
+    color: #050f59;
+}
+
+.edu-container h4 {
+    color: green;
+    font-size: 20px;
+}

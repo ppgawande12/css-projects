@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.wrapper h1 {
+    text-shadow: 2px 2px 5px rgba(18, 26, 36, 0.5);
+}
+
+.wrapper a {
+    color: rgb(7, 168, 74);
+}
+
+.wrapper a:hover {
+    text-decoration: none;
+    color: rgb(194, 14, 191);
+}
+
+header {
+    background-color: #ebf2f9;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    overflow: scroll;
+}
+
+.right {
+    position: relative;
+    height: 450px;
+    width: 45%;
+    overflow: scroll;
+}
+
+.left {
+    position: relative;
+    width: 45%;
+    margin-left: 2px;
+    padding-right: 1px;
+    ;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.container h1 {
+    text-align: center;
+    color: rgb(236, 14, 244);
+    text-shadow: 2px 2px 2px rgba(87, 154, 242, 0.5);
+}
+
+.container a {
+    text-decoration: none;
+    color: rgb(62, 40, 251);
+    border: 1px solid red;
+    background-color: beige;
+    padding: 5px;
+}
+
+.container a:hover {
+    text-decoration: none;
+    color: rgb(102, 86, 246);
+    border: 1px solid red;
+    background-color: rgb(244, 244, 178);
+    padding: 5px;
+}
+
+.container .left .alert button {
+    margin-top: 10px;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    color: rgb(30, 3, 21);
+    background-color: aquamarine;
+}
+
+.container .left .alert button:hover {
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    color: rgb(46, 4, 44);
+    background-color: rgb(127, 185, 255);
+}
+
+.promo button {
+    color: rgb(52, 18, 18);
+    background-color: rgb(215, 63, 246);
+    border: none;
+    padding: 5px;
+    border: 3px dashed red;
+    border-radius: 3px;
+}
+
+.promo button:hover {
+    background-color: rgb(189, 110, 243);
+    cursor: pointer;
+}
